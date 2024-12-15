@@ -1,0 +1,25 @@
+Setting Up Gmail for Email Functionality
+Step 1: Enable "Less Secure Apps" (Optional if using App Passwords)
+Go to Google Account Settings.
+Navigate to Security > Less secure app access.
+Enable access for less secure apps.
+
+Step 2: Generate an App Password
+Go to Google Account Settings. Navigate to Security > App Passwords (under "Signing in to Google").
+Select "Other (Custom name)", name it (e.g., "Nodemailer"), and click Generate.
+Copy the generated 16-character app password.
+
+Step 3: Add Credentials to .env. Update your .env file with the Gmail email and app password:
+
+env
+Copy code
+EMAIL_USER=your-email@gmail.com
+EMAIL_PASS=your-app-password
+
+Running the Application
+Step 1: Start MongoDB
+Ensure MongoDB is running locally or on your server:
+
+https://myaccount.google.com/apppasswords?hl=en&utm_source=OGB&utm_medium=act&gar=WzEyMF0&rapt=AEjHL4PPglD9kMH16B4pqmwglWyRQgjf22kggJdPs1rzr1WW9Fo2BDerqumWveSkKpOGN2dp5SoVqtq3qp9vHITS3K1wKtygCMSCqdwtmSemx8M6T56WXfg
+
+ifgz qnja rupk qrdl
